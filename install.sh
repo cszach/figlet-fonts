@@ -6,3 +6,4 @@ if [ "$EUID" -ne 0 ]
 fi
 
 cp fonts/* /usr/share/figlet
+cp control/* /usr/share/figlet
