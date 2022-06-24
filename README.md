@@ -13,6 +13,13 @@ Fonts for FIGlet and TOIlet with a preview webpage. See it [here][live].
 Fonts were collected by [xero](https://github.com/xero). I wrote the scripts to
 build the preview webpage and install the fonts.
 
+Directory structure
+-------------------
+
+- `control`: control files for FIGlet;
+- `fonts`: font files for FIGlet and TOIlet;
+- `misc`: other files found in the original collection.
+
 Install
 -------
 
@@ -35,10 +42,10 @@ Build the preview by running
 
 Options (all are optional):
 
-- `-w`: Output width for FIGlet's formatting. Default is `180`;
-- `-t`: The preview text. Default is `FIGlet`;
-- `-f`: Output file name. Default is `index.html`.
-- `-v`: Print the configuration before generating the preview.
+- `-w`: output width for FIGlet's formatting. Default is `180`;
+- `-t`: the preview text. Default is `FIGlet`;
+- `-f`: output file name. Default is `index.html`;
+- `-v`: print the configuration before generating the preview.
 
 Example:
 
