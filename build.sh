@@ -75,7 +75,7 @@ cd fonts
 COMMAND="echo \"Font file: <a href=\"./fonts/{}\">{}</a>\" && echo && figlet -f \"{}\" -w \"$width\" \"$text\" && echo"
 ls -1 *.[ft]lf | xargs -i sh -c "$COMMAND" 2> /dev/null >> ../"$filename"
 
-cd ..
+cd - &>/dev/null
 
 # Finish HTML
 
